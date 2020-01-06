@@ -10,8 +10,8 @@ source:
   fn: {{ name }}-{{ version }}.tar.bz2
   url: http://www.dest-unreach.org/{{ name }}/download/{{ name }}-{{ version }}.tar.bz2
   sha256: {{ sha256 }}
-  patches:
-    - 0001-use-speed_t.patch  # [osx]
+  #patches:
+  #  - 0001-use-speed_t.patch  # [osx]
 
 build:
   number: 0
