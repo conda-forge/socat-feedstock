@@ -14,7 +14,7 @@ source:
   #  - 0001-use-speed_t.patch  # [osx]
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
@@ -37,7 +37,7 @@ test:
 
 about:
   home: http://www.dest-unreach.org/socat/
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
   summary: A relay for bidirectional transfer between data channels (netcat++)
