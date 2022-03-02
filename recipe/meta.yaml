@@ -1,6 +1,6 @@
 {% set name = "socat" %}
 {% set version = "1.7.3.4" %}
-{% set sha256 = "972374ca86f65498e23e3259c2ee1b8f9dbeb04d12c2a78c0c9b5d1cb97dfdfc" %}
+{% set sha256 = "6690a9f9990457b505097a272bbf2cbf4cc35576176f76646e3524b0e91c1763" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
   #  - 0001-use-speed_t.patch  # [osx]
 
 build:
-  number: 2
+  number: 0
   skip: True  # [win]
 
 requirements:
