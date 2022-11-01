@@ -1,6 +1,6 @@
 {% set name = "socat" %}
-{% set version = "1.7.4.3" %}
-{% set sha256 = "d47318104415077635119dfee44bcfb41de3497374a9a001b1aff6e2f0858007" %}
+{% set version = "1.7.4.4" %}
+{% set sha256 = "fbd42bd2f0e54a3af6d01bdf15385384ab82dbc0e4f1a5e153b3e0be1b6380ac" %}
 
 package:
   name: {{ name|lower }}
