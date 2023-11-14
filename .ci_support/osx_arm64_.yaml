@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '12'
+- '16'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -11,10 +11,7 @@ channel_targets:
 macos_machine:
 - arm64-apple-darwin20.0.0
 openssl:
-- 1.1.1
-pin_run_as_build:
-  readline:
-    max_pin: x
+- '3'
 readline:
 - '8'
 target_platform:
